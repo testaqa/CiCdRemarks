@@ -16,7 +16,7 @@ public class AppTests {
     @Test
     void numberOfCitiesOnStart() {
         open("");
-        $$(".popup-btn-city").shouldHaveSize(3);
+        $$(".popup-btn-city").shouldHaveSize(2);
     }
 
 }
