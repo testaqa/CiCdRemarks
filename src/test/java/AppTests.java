@@ -12,6 +12,8 @@ public class AppTests {
         Configuration.headless = true;
         Configuration.baseUrl = "https://godzila.bg/en";
         Configuration.startMaximized = true;
+
+        Configuration.remote = "http://localhost:4444/wd/hub";
     }
 
     @Test
