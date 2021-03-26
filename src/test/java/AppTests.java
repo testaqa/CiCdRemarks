@@ -9,6 +9,7 @@ public class AppTests {
 
     @BeforeAll
     public static void BeforeAll() {
+        Configuration.headless = true;
         Configuration.baseUrl = "https://godzila.bg/en";
         Configuration.startMaximized = true;
     }
