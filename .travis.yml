@@ -16,4 +16,8 @@ jdk:
   - openjdk11
 
 script:
-  - ./gradlew clean test
+  - chmod +x ./.upload_reports.sh
+  - ./gradlew clean test allureReport
+
+after_script:
+  - "./.upload_reports.sh"
