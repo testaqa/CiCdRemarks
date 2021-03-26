@@ -20,4 +20,4 @@ script:
   - ./gradlew clean test allureReport
 
 after_script:
-  - "./.upload_reports.sh"
+  - ./.upload_reports.sh
